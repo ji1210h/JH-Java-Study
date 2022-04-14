@@ -1,7 +1,7 @@
 {
-    "java.project.sourcePaths": [
-        "1-4 gugudan/src",
-        "1-3 println/src",
-        "2-1 test/src"
-    ]
+  "java.project.sourcePaths": [
+    "1-4 gugudan/src",
+    "1-3 println/src",
+    "MyCalculator/src"
+  ]
 }
