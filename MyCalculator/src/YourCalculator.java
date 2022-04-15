@@ -24,6 +24,18 @@ public class YourCalculator {
             if (num == 1) {
                 plus(a, b);
             }
+
+            else if (num == 2) {
+                minus(a, b);
+            }
+
+            else if (num == 3) {
+                mul(a, b);
+            }
+
+            else if (num == 4) {
+                div(a, b);
+            }
         }
 
     }
@@ -39,6 +51,21 @@ public class YourCalculator {
 
     public static void plus(int a, int b) {
         int dap = a + b;
+        System.out.println(dap + "\n");
+    }
+
+    public static void minus(int a, int b) {
+        int dap = a - b;
+        System.out.println(dap + "\n");
+    }
+
+    public static void mul(int a, int b) {
+        int dap = a * b;
+        System.out.println(dap + "\n");
+    }
+
+    public static void div(int a, int b) {
+        int dap = a / b;
         System.out.println(dap + "\n");
     }
 
